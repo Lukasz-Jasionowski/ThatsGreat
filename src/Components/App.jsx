@@ -22,7 +22,8 @@ function App({ loggedName }) {
     return (
         <div>
             <Header/>
-            <h1>Hi {loggedName}</h1>
+            <h2 className="greet">Hi {loggedName}</h2>
+            <p className="question">What ideas do you have today?</p>
             <CreateArea onAdd={addNote} />
             {notes.map((noteItem, index) => {
                 return (
