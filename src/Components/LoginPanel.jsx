@@ -32,7 +32,7 @@ function LoginPanel({ onLogin }) {
                     onChange={handleChange}
                     name="fName"
                     value={fname.fName}
-                    placeholder="First Name"
+                    placeholder="Login"
                     required
                 />
                 <input
