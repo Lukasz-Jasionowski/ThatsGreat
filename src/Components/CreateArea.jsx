@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 function CreateArea(props) {
     const [note, setNote] = useState({
@@ -41,7 +43,7 @@ function CreateArea(props) {
                     placeholder="Take a note..."
                     rows="3"
                 />
-                <button onClick={submitNote}>Add</button>
+                <button onClick={submitNote}><FontAwesomeIcon icon={faPlus} beat/></button>
             </form>
         </div>
     );

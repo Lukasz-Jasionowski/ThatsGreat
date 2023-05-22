@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 
 function Note(props) {
     function handleClick() {
@@ -8,7 +10,7 @@ function Note(props) {
         <div className="note">
             <h1>{props.title}</h1>
             <p>{props.content}</p>
-            <button onClick={handleClick}>DELETE</button>
+            <button onClick={handleClick}><FontAwesomeIcon icon={faTrashCan} /></button>
         </div>
     );
 }
