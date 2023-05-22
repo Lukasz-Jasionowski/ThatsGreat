@@ -11,6 +11,7 @@ html {
 body {
     background: #eee;
     padding: 0 16px;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
 header {
@@ -22,6 +23,12 @@ header {
 
 header h1 {
     color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
+
+h1 {
+    color: #48a4f0;
     font-family: "McLaren", cursive;
     font-weight: 200;
 }
