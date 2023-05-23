@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Weather from "./Weather";
 
 function LoginPanel({ onLogin }) {
     const [fname, setName] = useState({
@@ -42,6 +43,7 @@ function LoginPanel({ onLogin }) {
                 />
                 <button type="submit">Submit</button>
             </form>
+            <Weather />
         </div>
     );
 }
